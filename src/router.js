@@ -26,6 +26,11 @@ const routes = [
     name: 'navbar',
     component: () => import(/* webpackChunkName: 'todos' */ './components/NavbarComponent.vue'),
   },
+  {
+    path: '/todocomponent',
+    name: 'todocomponent',
+    component: () => import(/* webpackChunkName: 'todos' */ './components/ToDoComponent.vue'),
+  },
 
 ];
 
