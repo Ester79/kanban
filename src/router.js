@@ -31,6 +31,11 @@ const routes = [
     name: 'menuTodo',
     component: () => import(/* webpackChunkName: 'menuTodo' */ './components/MenuTodoComponent.vue'),
   },
+  {
+    path: '/errorMessage',
+    name: 'errorMessage',
+    component: () => import('./components/ErroMessageComponent.vue'),
+  },
 ];
 
 const router = createRouter({
